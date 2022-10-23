@@ -1,0 +1,72 @@
+* {
+    text-align: center;
+    margin: 0;
+}
+p{ 
+    background-color: green;
+    color: green;
+    
+}
+p.base1{
+    width: 10%;
+    font-size: small;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+p.base2{ 
+    width: 15%;
+    font-size: small;
+
+}
+p.base3 {
+    width: 20%;
+    height: 10%;
+}
+p.base4 {
+    width: 20%;
+    height: 10%;
+}
+p.base5 {
+    width: 20%;
+    height: 15%;
+}
+p.base6 {
+    width: 1%;
+    height: 300px;
+}
+p.base7 {
+    width: 15%;
+    height: 1%;
+}
+p.base8{
+    width: 20%;
+    padding-top: 2%;
+}
+ .boton1{
+    color: red;
+    background-color: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: none;
+ }
+ .boton2{
+    color: yellow;
+    background-color: yellow;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: none;
+ }
+ .boton3{
+    color: yellowgreen;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: none;
+ }
+ div{
+position: absolute;
+    width: calc(50% - 20px);
+ }

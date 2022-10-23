@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form action="registro.php" method="get" enctype="multipart/form-data">
+
+        <fieldset>
+            <legend>Datos personales</legend>
+
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre">
+            </div>
+
+            <div>
+                <label for="apellidos">Apellidos</label>
+                <input type="text" id="apellidos">
+            </div>
+
+            <div>
+                <label for="edad">Edad</label>
+                <input type="numero" id="edad">
+            </div>
+
+            <div>
+                <label for="ciudad">Ciudad de residencia</label>
+                <select type="ciudad" id="ciudad">
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Madrid">Madrid</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="telefono">Numero de telefono</label>
+                <input type="tel" id="telefono">
+            </div>
+
+            <div>
+                <label for="email">Email personal</label>
+                <input type="mail" id="email">
+            </div>
+
+            <div>
+                <label for="file-input">Imagen personal</label>
+                <input type="file" id="file-input" accept="jpg,jpeg,png">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Datos sobre ti</legend>
+
+            <div>
+                <label for="aficiones"></label>
+                <textarea name="texto" rows="4" cols="20" placeholder="Aficiones"></textarea>
+            </div>
+
+            <div>
+                <label for="Breve presentacion"></label>
+                <textarea name="texto" rows="4" cols="50" placeholder="breve presentacion sobre ti"></textarea>
+            </div>
+
+        </fieldset>
+
+        <div>
+            <input type="checkbox" name="casilla" value="hola">
+            <label for="casilla">Acepto suscribirme a la newsletter</label>
+        </div>
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+
+</html>
